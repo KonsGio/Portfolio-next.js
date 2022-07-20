@@ -31,22 +31,25 @@ const Navbar = () => {
     <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100] ' : 'fixed w-full h-20 z-[100] '}>
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
             {/* Lazy loading images */}
-            <Image src='/../public/assets/icon.png'  width='120' height='70' />
+
+            <Link href='/'>
+                <Image src='/../public/assets/icon.png'  width='120' height='70' />
+            </Link>
             <div>
                 <ul className='hidden md:flex'>
                     <Link href='/'>
                         <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
                     </Link>
-                    <Link href='/'>
+                    <Link href='/#about'>
                         <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
                     </Link>
-                    <Link href='/'>
+                    <Link href='/#skills'>
                         <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
                     </Link>
-                    <Link href='/'>
+                    <Link href='/#projects'>
                         <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
                     </Link>
-                    <Link href='/'>
+                    <Link href='/#contact'>
                         <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
                     </Link>
                 </ul>
@@ -77,16 +80,16 @@ const Navbar = () => {
                         <Link href='/'>
                             <li className='py-4 text-sm  p-3 cursor-pointer hover:scale-105 ease-in duration-300 '>Home</li>
                         </Link>
-                        <Link href='/'>
+                        <Link href='/#about'>
                             <li className='py-4 text-sm  p-3 cursor-pointer hover:scale-105 ease-in duration-300'>About</li>
                         </Link>
-                        <Link href='/'>
+                        <Link href='/#skills'>
                             <li className='py-4 text-sm  p-3 cursor-pointer hover:scale-105 ease-in duration-300 '>Skills</li>
                         </Link>
-                        <Link href='/'>
+                        <Link href='/#projects'>
                             <li className='py-4 text-sm  p-3 cursor-pointer hover:scale-105 ease-in duration-300 '>Projects</li>
                         </Link>
-                        <Link href='/'>
+                        <Link href='/#contact'>
                             <li className='py-4 text-sm  p-3 cursor-pointer hover:scale-105 ease-in duration-300 '>Contact</li>
                         </Link>
                     </ul>
