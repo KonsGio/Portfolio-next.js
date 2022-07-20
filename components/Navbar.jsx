@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState,useEffect} from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
@@ -9,13 +9,26 @@ const Navbar = () => {
 
     // Use State for navbar menu
     const [nav, setNav] = useState(false);
+    const [shadow, setShadow] = useState(false);
+
+    useEffect(() => {
+      const handleShadow = () => {
+        if(window.scrollY >= 90) {
+            setShadow(true)
+        }else{
+            setShadow(false)
+        }
+      } 
+       window.addEventListener('scroll', handleShadow);
+    }, [])
+    
 
     const handleNav = () => {
         setNav(!nav)
     }
 
   return (
-    <div className='fixed w-full h-20 shadow-xl z-[100] '>
+    <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100] ' : 'fixed w-full h-20 z-[100] '}>
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
             {/* Lazy loading images */}
             <Image src='/../public/assets/icon.png'  width='120' height='70' />
