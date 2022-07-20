@@ -9,49 +9,63 @@ import portfolio from '../public/assets/projects/My-portfolio.png';
 import portnext from '../public/assets/projects/portfolio-next.png';
 import tikataka from '../public/assets/projects/tikataka.png';
 import ProjectItem from './ProjectItem';
+import ellines from '../public/assets/projects/ellines.png';
+import todo from '../public/assets/projects/todolist.png';
 
 const Projects = () => {
   return (
     <div id='projects' className='w-full'>
-        <div className='max-w-[1240px] mx-auto px-2 py-16'>
+        <div className='max-w-[1240px] mx-auto px-2 py-16 mt-5'>
             <p className='uppercase text-xl tracking-widest text-[#6f3d01]'>Projects</p>
             <h2>Take a look at the projects I have built.</h2>
             <div className='grid md:grid-cols-2 gap-8'>
             <ProjectItem
                 title='My portfolio in React'
                 backgroundImg={portnext}
-                projectUrl='/property'
+                projectUrl='../projects/portfolionext'
                 tech='React | Next.js | TailWind'
             />
             <ProjectItem
                 title='Tika Taka'
                 backgroundImg={tikataka}
-                projectUrl='/property'
+                projectUrl='../projects/tikataka'
                 tech='Next.js | Typescript | TailWind'
             />
             <ProjectItem
                 title='Admin UI-Dashboard'
                 backgroundImg={devapp}
-                projectUrl='/property'
+                projectUrl='../projects/devapp'
                 tech='React | Typescript | TailWind'
             />
             <ProjectItem
                 title='Travel Companion'
                 backgroundImg={mapapp}
-                projectUrl='/property'
+                projectUrl='../projects/mapapp'
                 tech='React | Google-API | Rapid-API'
             />
             <ProjectItem
                 title='Chat application'
                 backgroundImg={devchat}
-                projectUrl='/property'
+                projectUrl='../projects/devchat'
                 tech='React | Typescript | Stream.io'
             />
             <ProjectItem
                 title='Portfolio in html'
                 backgroundImg={portfolio}
-                projectUrl='/property'
+                projectUrl='../projects/myportfolio'
                 tech='HTML5 | Javascript | Css3'
+            />
+            <ProjectItem
+                title='Griekse Gemeenschaap van Amsterdam'
+                backgroundImg={ellines}
+                projectUrl='../projects/gemenschaap'
+                tech='Wordrpress | PHP | CSS'
+            />
+            <ProjectItem
+                title='A simple to-do list'
+                backgroundImg={todo}
+                projectUrl='../projects/todo'
+                tech='React | Firebase | Css3'
             />
             </div>
         </div>
