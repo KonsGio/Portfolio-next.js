@@ -4,6 +4,10 @@
 
 /* Global styling */
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer base {
   
   body {
