@@ -1,6 +1,6 @@
 import React from 'react'
 import {  AiOutlineMail  } from 'react-icons/ai';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { FaFileDownload, FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 const Main = () => {
@@ -29,8 +29,8 @@ const Main = () => {
                          <AiOutlineMail />
                     </div>
                     <div className='rounded-full shadow-gray-400 shadow-lg p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-gray-600'>
-                         <BsFillPersonLinesFill />
-                    </div>
+                    <FaFileDownload></FaFileDownload>
+                </div>
                 </div>
             </div>
         </div>
