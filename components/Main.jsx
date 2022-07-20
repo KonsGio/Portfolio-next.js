@@ -29,8 +29,8 @@ const Main = () => {
                          <AiOutlineMail />
                     </div>
                     <div className='rounded-full shadow-gray-400 shadow-lg p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-gray-600'>
-                    <FaFileDownload></FaFileDownload>
-                </div>
+                    <FaFileDownload/>
+                   </div>
                 </div>
             </div>
         </div>
