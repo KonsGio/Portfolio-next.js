@@ -42,7 +42,7 @@ const Navbar = () => {
                 </div>
             </div>
         </div>
-        <div className={nav ? 'fixed left-0 top-0 w-full h-screen bg-black/50' : ''}>
+        <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/50' : ''}>
             <div 
                 className={
                     nav 
@@ -56,7 +56,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className='border-b border-gray-300 my-4'>
-                        <p className='w-[85%] md:w-[90%] py-4'>Let's build something together!</p>
+                        <p className='w-[85%] md:w-[90%] py-4'>Welcome to my digital portfolio!</p>
                     </div>
                 </div>
                 <div className='py-4 flex flex-col'>
@@ -78,7 +78,7 @@ const Navbar = () => {
                         </Link>
                     </ul>
                     <div className='pt-40'>
-                        <p className='uppercase tracking-widest text-[#5651e5]'>Contact me</p>
+                        <p className='uppercase tracking-widest text-[#6f3d01]'>Contact me</p>
                         <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                             <div className='rounded-full shadow-gray-400 shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:shadow-gray-600'>
                                 <FaLinkedinIn />
