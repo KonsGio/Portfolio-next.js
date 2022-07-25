@@ -29,16 +29,16 @@ const Contact = () => {
                     <p className='uppercase pt-8'>Connect With Me</p>
                     <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                                 <div className='rounded-full shadow-gray-400 shadow-lg p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-gray-600'>
-                                    <FaLinkedinIn />
+                                    <a href='https://www.linkedin.com/in/konstantinos-giovanitsas-10b511150/' target='_blank' className='text-[#6f3d01]'><FaLinkedinIn  /></a>
                                 </div>
                                 <div className='rounded-full shadow-gray-400 shadow-lg p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-gray-600'>
-                                    <FaGithub />
+                                    <a href='https://github.com/KonsGio' target='_blank' className='text-[#6f3d01]'><FaGithub /></a>
                                 </div>
                                 <div className='rounded-full shadow-gray-400 shadow-lg p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-gray-600'>
-                                    <AiOutlineMail />
+                                    <a href='/#contact' className='text-[#6f3d01]'><AiOutlineMail /></a>
                                 </div>
                                 <div className='rounded-full shadow-gray-400 shadow-lg p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-gray-600'>
-                                    <FaFileDownload/>
+                                    <a href='https://mega.nz/file/xYNlnSCI#B8-UZI987dsWx41SDiqhOHc9Sg0EBqUZKvHOe7P65Ig' target='_blank' className='text-[#6f3d01]'><FaFileDownload /></a>
                             </div>
                       </div>
                 </div>
