@@ -1,10 +1,12 @@
 import Link from 'next/link';
-import React from 'react';
+import React, {useState} from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { FaFileDownload, FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi';
 
 const Contact = () => {
+
+
   return (
     <div id='contact' className='w-full lg:h-screen'>
         <div className='max-w-[1240px] m-auto px-2 py-20 w-full mt-16'>
@@ -48,38 +50,40 @@ const Contact = () => {
 
             <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
                 <div className='p-4'>
-                    <form>
-                        <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
+                    <form 
+                          action='https://getform.io/f/e8a26127-50b2-4d36-8e11-ea1e0529772e'
+                          method='POST'>
+                          <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                             <div className='flex flex-col'>
                                 <label className='uppercase text-sm py-2'>
                                     Name
                                 </label>
-                                <input type='text' className='border-2 rounded-lg p-3 flex border-gray-300'/> 
+                                <input type='text' name='name' className='border-2 rounded-lg p-3 flex border-gray-300' /> 
                             </div>
                             <div className='flex flex-col'>
                                 <label className='uppercase text-sm py-2'>
                                     Phone Number
                                 </label>
-                                <input type='text' className='border-2 rounded-lg p-3 flex border-gray-300'/> 
+                                <input type='text' name='phone' className='border-2 rounded-lg p-3 flex border-gray-300'/> 
                             </div>
                         </div>
                         <div className='flex flex-col py-2'>
                             <label className='uppercase text-sm py-2'>
                                 Email
                             </label>
-                            <input type='email' className='border-2 rounded-lg p-3 flex border-gray-300'/> 
+                            <input type='email' name='email' className='border-2 rounded-lg p-3 flex border-gray-300' /> 
                         </div>
                         <div className='flex flex-col py-2'>
                             <label className='uppercase text-sm py-2'>
                                 Subject
                             </label>
-                            <input type='text' className='border-2 rounded-lg p-3 flex border-gray-300'/> 
+                            <input type='text' name='subject' className='border-2 rounded-lg p-3 flex border-gray-300' /> 
                         </div>
                         <div className='flex flex-col py-2'>
                             <label className='uppercase text-sm py-2'>
                                 Message
                             </label>
-                            <textarea type='email' className='border-2 rounded-lg p-3 border-gray-300 ' rows='10'></textarea> 
+                            <textarea type='text' name='message' className='border-2 rounded-lg p-3 border-gray-300 ' rows='10'></textarea> 
                         </div>
                         <button className='w-full p-4 text-gray-100 mt-4'>
                             Send Message
