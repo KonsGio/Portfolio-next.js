@@ -12,7 +12,7 @@ const Navbar = () => {
     const [nav, setNav] = useState(false);
     const [shadow, setShadow] = useState(false);
     const [navBg, setNavBg] = useState('#ecf0f3');
-    const [linkColor, setLinkColor] = useState('1f2937');
+    const [linkColor, setLinkColor] = useState('6f3d01');
     const router = useRouter()
 
     useEffect(() => {
@@ -30,7 +30,7 @@ const Navbar = () => {
             setLinkColor('#ecf0f3')
         } else {
             setNavBg('#ecf0f3')
-            setLinkColor('#1f2937')
+            setLinkColor('#6f3d01')
         }
       
     }, [router])
@@ -65,21 +65,21 @@ const Navbar = () => {
                 <Image className='hover:cursor-pointer' src='/../public/assets/icon.png'  width='120' height='70' />
             </Link>
             <div>
-                <ul style = {{color: `${linkColor}`}} className='hidden md:flex'>
+                <ul style = {{color: `${linkColor}`}} className='hidden md:flex text-[#6f3d01]'>
                     <Link href='/'>
-                        <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
+                        <li className='ml-10 text-sm uppercase hover:text-[#b17225] hover:scale-125 ease-in duration-300'>Home</li>
                     </Link>
                     <Link href='/#about'>
-                        <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
+                        <li className='ml-10 text-sm uppercase hover:text-[#b17225] hover:scale-125 ease-in duration-300'>About</li>
                     </Link>
                     <Link href='/#skills'>
-                        <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
+                        <li className='ml-10 text-sm uppercase hover:text-[#b17225] hover:scale-125 ease-in duration-300'>Skills</li>
                     </Link>
                     <Link href='/#projects'>
-                        <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
+                        <li className='ml-10 text-sm uppercase hover:text-[#b17225] hover:scale-125 ease-in duration-300'>Projects</li>
                     </Link>
                     <Link href='/#contact'>
-                        <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
+                        <li className='ml-10 text-sm uppercase hover:text-[#b17225] hover:scale-125 ease-in duration-300'>Contact</li>
                     </Link>
                 </ul>
                 <div className='md:hidden' onClick={handleNav}>
