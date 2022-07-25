@@ -63,6 +63,9 @@
 
 * [![KGIO.DEV][SITE]][SITE-url]
 * [![LinkedIn][linkedin-shield]][linkedin-url]
+* [![Netlify Status](https://api.netlify.com/api/v1/badges/5e6361e2-eb86-4d9d-86a0-62a33d30bac6/deploy-status)](https://app.netlify.com/sites/dev-kgio-portfolio/deploys)
+
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
