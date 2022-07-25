@@ -4,7 +4,8 @@ import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { FaFileDownload, FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi';
-import contactpic from '../public/assets/contact.jpg'
+import contactpic from '../public/assets/contact.jpg';
+
 const Contact = () => {
 
 
@@ -52,7 +53,7 @@ const Contact = () => {
             <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
                 <div className='p-4'>
                     <form 
-                          action='https://getform.io/f/e8a26127-50b2-4d36-8e11-ea1e0529772e'
+                          action={process.env.GET_FORM}
                           method='POST'>
                           <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                             <div className='flex flex-col'>
