@@ -2,15 +2,15 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import devapp from '../public/assets/projects/dev-app.png';
-import devchat from '../public/assets/projects/dev-chat.png';
-import mapapp from '../public/assets/projects/map-app.png';
-import portfolio from '../public/assets/projects/My-portfolio.png';
-import portnext from '../public/assets/projects/portfolio-next.png';
-import tikataka from '../public/assets/projects/tikataka.png';
+import devapp from '/public/assets/projects/dev-app.png';
+import devchat from '/public/assets/projects/dev-chat.png';
+import mapapp from '/public/assets/projects/map-app.png';
+import portfolio from '/public/assets/projects/My-portfolio.png';
+import portnext from '/public/assets/projects/portfolio-next.png';
+import tikataka from '/public/assets/projects/tikataka.png';
 import ProjectItem from './ProjectItem';
-import ellines from '../public/assets/projects/ellines.png';
-import todo from '../public/assets/projects/todolist.png';
+import ellines from '/public/assets/projects/ellines.png';
+import todo from '/public/assets/projects/todolist.png';
 
 const Projects = () => {
   return (
