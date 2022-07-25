@@ -78,19 +78,19 @@ const Navbar = () => {
                 <div className='py-4 flex flex-col'>
                     <ul className='uppercase'>
                         <Link href='/'>
-                            <li className='py-4 text-sm  p-3 cursor-pointer hover:scale-105 ease-in duration-300 '>Home</li>
+                            <li onClick={() => setNav(false)} className='py-4 text-sm  p-3 cursor-pointer hover:scale-105 ease-in duration-300 '>Home</li>
                         </Link>
                         <Link href='/#about'>
-                            <li className='py-4 text-sm  p-3 cursor-pointer hover:scale-105 ease-in duration-300'>About</li>
+                            <li onClick={() => setNav(false)} className='py-4 text-sm  p-3 cursor-pointer hover:scale-105 ease-in duration-300'>About</li>
                         </Link>
                         <Link href='/#skills'>
-                            <li className='py-4 text-sm  p-3 cursor-pointer hover:scale-105 ease-in duration-300 '>Skills</li>
+                            <li onClick={() => setNav(false)} className='py-4 text-sm  p-3 cursor-pointer hover:scale-105 ease-in duration-300 '>Skills</li>
                         </Link>
                         <Link href='/#projects'>
-                            <li className='py-4 text-sm  p-3 cursor-pointer hover:scale-105 ease-in duration-300 '>Projects</li>
+                            <li onClick={() => setNav(false)} className='py-4 text-sm  p-3 cursor-pointer hover:scale-105 ease-in duration-300 '>Projects</li>
                         </Link>
                         <Link href='/#contact'>
-                            <li className='py-4 text-sm  p-3 cursor-pointer hover:scale-105 ease-in duration-300 '>Contact</li>
+                            <li onClick={() => setNav(false)} className='py-4 text-sm  p-3 cursor-pointer hover:scale-105 ease-in duration-300 '>Contact</li>
                         </Link>
                     </ul>
                     <div className='pt-40'>
