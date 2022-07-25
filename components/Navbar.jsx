@@ -4,12 +4,38 @@ import Link from 'next/link';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
+import {useRouter} from 'next/router';
 
 const Navbar = () => {
 
     // Use State for navbar menu
     const [nav, setNav] = useState(false);
     const [shadow, setShadow] = useState(false);
+    const [navBg, setNavBg] = useState('#ecf0f3');
+    const [linkColor, setLinkColor] = useState('1f2937');
+    const router = useRouter()
+
+    useEffect(() => {
+        
+        if (
+            router.asPath === '/projects/devapp' ||
+            router.asPath === '/projects/devchat' ||
+            router.asPath === '/projects/gemenschaap' ||
+            router.asPath === '/projects/mapapp' ||
+            router.asPath === '/projects/portfolionext' ||
+            router.asPath === '/projects/tikataka' ||
+            router.asPath === '/projects/todo'
+        ) {
+            setNavBg('transparent')
+            setLinkColor('#ecf0f3')
+        } else {
+            setNavBg('#ecf0f3')
+            setLinkColor('#1f2937')
+        }
+      
+    }, [router])
+    
+
 
     useEffect(() => {
       const handleShadow = () => {
@@ -28,7 +54,10 @@ const Navbar = () => {
     }
 
   return (
-    <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100] ' : 'fixed w-full h-20 z-[100] '}>
+
+    <div 
+        style={{backgroundColor: `${navBg}`}}
+        className={shadow ? 'fixed w-full h-20 shadow-xl z-[100] ' : 'fixed w-full h-20 z-[100] '}>
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
             {/* Lazy loading images */}
 
@@ -36,7 +65,7 @@ const Navbar = () => {
                 <Image src='/../public/assets/icon.png'  width='120' height='70' />
             </Link>
             <div>
-                <ul className='hidden md:flex'>
+                <ul style = {{color: `${linkColor}`}} className='hidden md:flex'>
                     <Link href='/'>
                         <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
                     </Link>
