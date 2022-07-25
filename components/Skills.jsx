@@ -7,7 +7,7 @@ import html from '../public/assets/skills/html.png';
 import javascript from '../public/assets/skills/javascript.png';
 import mongo from '../public/assets/skills/mongo.png';
 import nextjs from '../public/assets/skills/nextjs.png';
-import node from '../public/assets/skills/NODE.png';
+import node from '../public/assets/skills/node.png';
 import react from '../public/assets/skills/react.png';
 import redux from '../public/assets/skills/redux.png';
 import sanity from '../public/assets/skills/sanity.png';
