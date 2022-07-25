@@ -12,7 +12,7 @@ const About = () => {
                     INFORMATION ABOUT ME
                 </p>
                 <h2 className='py-4'>Who I Am</h2>
-                <p className='py-2 text-gray-600'>// A passionate developer</p>
+                <p className='py-2 text-gray-600'>A humble developer</p>
                 <p className='py-2 text-gray-600'>
                     My name is Konstantinos Giovanitsas or simply Kostas, and I am from Greece. I am a holder of an Sc.B in Computer, Informatics and Telecommunications Engineering. I am living both in Greece and Netherlands, 
                     if only i could describe the positive aspects of that. 

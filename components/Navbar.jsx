@@ -62,7 +62,7 @@ const Navbar = () => {
             {/* Lazy loading images */}
 
             <Link href='/'>
-                <Image className='hover:cursor-pointer' src='/../public/assets/icon.png'  width='120' height='70' />
+                <Image className='hover:cursor-pointer' src='/../public/assets/icon.png' alt='/' width='120' height='70' />
             </Link>
             <div>
                 <ul style = {{color: `${linkColor}`}} className='hidden md:flex text-[#6f3d01]'>
@@ -95,7 +95,7 @@ const Navbar = () => {
                     : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
                 <div>
                     <div className='flex w-full items-center justify-between'>
-                        <Image src='/../public/assets/icon.png' width='130' height='70'/>
+                        <Image src='/../public/assets/icon.png' width='130' height='70' alt='/'/>
                         <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer duration-300 hover:shadow-gray-600'>
                             <AiOutlineClose/>
                         </div>
@@ -126,16 +126,16 @@ const Navbar = () => {
                         <p className='uppercase tracking-widest text-[#2f1f0b]'>Contact me</p>
                         <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                             <div className='rounded-full shadow-gray-400 shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:shadow-gray-600'>
-                                <a onClick={() => setNav(false)} href='https://www.linkedin.com/in/konstantinos-giovanitsas-10b511150/' target='_blank' className='text-[#6f3d01]'><FaLinkedinIn  /></a>
+                                <a onClick={() => setNav(false)} href='https://www.linkedin.com/in/konstantinos-giovanitsas-10b511150/' rel="noreferrer" target='_blank' className='text-[#6f3d01]'><FaLinkedinIn  /></a>
                             </div>
                             <div className='rounded-full shadow-gray-400 shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:shadow-gray-600'>
-                                <a onClick={() => setNav(false)} href='https://github.com/KonsGio' target='_blank' className='text-[#6f3d01]'><FaGithub /></a>
+                                <a onClick={() => setNav(false)} href='https://github.com/KonsGio' rel="noreferrer" target='_blank' className='text-[#6f3d01]'><FaGithub /></a>
                             </div>
                             <div className='rounded-full shadow-gray-400 shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:shadow-gray-600'>
-                                <a onClick={() => setNav(false)} href='/#contact' className='text-[#6f3d01]'><AiOutlineMail /></a>
+                                <Link onClick={() => setNav(false)} href='/#contact' className='text-[#6f3d01]'><AiOutlineMail /></Link>
                             </div>
                             <div className='rounded-full shadow-gray-400 shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:shadow-gray-600'>
-                                <a onClick={() => setNav(false)} href='https://mega.nz/file/xYNlnSCI#B8-UZI987dsWx41SDiqhOHc9Sg0EBqUZKvHOe7P65Ig' target='_blank' className='text-[#6f3d01]'><FaFileDownload /></a>
+                                <a onClick={() => setNav(false)} href='https://mega.nz/file/xYNlnSCI#B8-UZI987dsWx41SDiqhOHc9Sg0EBqUZKvHOe7P65Ig' rel="noreferrer" target='_blank' className='text-[#6f3d01]'><FaFileDownload /></a>
                             </div>
                         </div>
                     </div>

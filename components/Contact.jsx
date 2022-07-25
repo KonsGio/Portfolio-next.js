@@ -1,9 +1,10 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { FaFileDownload, FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi';
-
+import contactpic from '../public/assets/contact.jpg'
 const Contact = () => {
 
 
@@ -20,7 +21,7 @@ const Contact = () => {
 {/* Left */}
             <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
                 <div className='lg:p-4'>
-                    <img className='rounded-xl hover:scale-105 ease-in duration-300' src='https://media.istockphoto.com/photos/businessman-touching-icon-mobile-phone-mail-telephone-and-address-picture-id1153130142?k=20&m=1153130142&s=612x612&w=0&h=DWIC-H0piTNxyYHYrpGnxZ0PCBs05HzeViF_nRxsJ2Y='/>
+                    <Image className='rounded-xl hover:scale-105 ease-in duration-300' src={contactpic}  alt='/'/>
                 </div>
                 <div>
                     <h2 className='py-2'>Giovanitsas Konstantinos</h2>
@@ -31,16 +32,16 @@ const Contact = () => {
                     <p className='uppercase pt-8'>Connect With Me</p>
                     <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                                 <div className='rounded-full shadow-gray-400 shadow-lg p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-gray-600'>
-                                    <a href='https://www.linkedin.com/in/konstantinos-giovanitsas-10b511150/' target='_blank' className='text-[#6f3d01]'><FaLinkedinIn  /></a>
+                                    <a href='https://www.linkedin.com/in/konstantinos-giovanitsas-10b511150/' rel="noreferrer" target='_blank' className='text-[#6f3d01]'><FaLinkedinIn  /></a>
                                 </div>
                                 <div className='rounded-full shadow-gray-400 shadow-lg p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-gray-600'>
-                                    <a href='https://github.com/KonsGio' target='_blank' className='text-[#6f3d01]'><FaGithub /></a>
+                                    <a href='https://github.com/KonsGio' rel="noreferrer" target='_blank' className='text-[#6f3d01]'><FaGithub /></a>
                                 </div>
                                 <div className='rounded-full shadow-gray-400 shadow-lg p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-gray-600'>
-                                    <a href='/#contact' className='text-[#6f3d01]'><AiOutlineMail /></a>
+                                    <Link href='/#contact' className='text-[#6f3d01]'><AiOutlineMail /></Link>
                                 </div>
                                 <div className='rounded-full shadow-gray-400 shadow-lg p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-gray-600'>
-                                    <a href='https://mega.nz/file/xYNlnSCI#B8-UZI987dsWx41SDiqhOHc9Sg0EBqUZKvHOe7P65Ig' target='_blank' className='text-[#6f3d01]'><FaFileDownload /></a>
+                                    <a href='https://mega.nz/file/xYNlnSCI#B8-UZI987dsWx41SDiqhOHc9Sg0EBqUZKvHOe7P65Ig' rel="noreferrer" target='_blank' className='text-[#6f3d01]'><FaFileDownload /></a>
                             </div>
                       </div>
                 </div>

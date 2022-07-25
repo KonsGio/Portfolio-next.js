@@ -28,7 +28,7 @@ const mapapp = () => {
               <h2>Overview</h2>
               <p>
                 Travel Companion is an application that does exactly what its name says. You can bring Travel Companion wherever you are. The application is 
-                capable of fetching data for Restaurants, Hotels and Attractions nearby. It has the ability to discover user's location and bring the 
+                capable of fetching data for Restaurants, Hotels and Attractions nearby. It has the ability to discover user&apos location and bring the 
                 suitable options around. 
               </p>
               Several APIs were used in this project, with the most important of them, the Google-maps-API which enables as to build a map application

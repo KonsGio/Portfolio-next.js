@@ -1,6 +1,4 @@
 
-import Image from 'next/image';
-import Link from 'next/link';
 import React from 'react';
 import devapp from '/public/assets/projects/dev-app.png';
 import devchat from '/public/assets/projects/dev-chat.png';
