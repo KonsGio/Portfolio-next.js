@@ -1,6 +1,8 @@
+import Link from 'next/link';
 import React from 'react'
 import {  AiOutlineMail  } from 'react-icons/ai';
 import { FaFileDownload, FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import {HiOutlineChevronDoubleDown} from 'react-icons/hi';
 
 const Main = () => {
   return (
@@ -31,8 +33,16 @@ const Main = () => {
                         <a href='https://mega.nz/file/xYNlnSCI#B8-UZI987dsWx41SDiqhOHc9Sg0EBqUZKvHOe7P65Ig' target='_blank' className='text-[#6f3d01]'><FaFileDownload /></a>
                    </div>
                 </div>
+                <div className='flex justify-center py-12'>
+                    <Link href='/#about'>
+                        <div className='rounded-full shadow-gray-400 shadow-lg p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-gray-600'>
+                            <HiOutlineChevronDoubleDown size={30} className='m-auto text-[#6f3d01]'/>
+                        </div>
+                    </Link>
+            </div>
             </div>
         </div>
+       
     </div>
   )
 }
