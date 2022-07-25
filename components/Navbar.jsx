@@ -2,7 +2,7 @@ import React, {useState,useEffect} from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { FaFileDownload, FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import {useRouter} from 'next/router';
 
@@ -62,7 +62,7 @@ const Navbar = () => {
             {/* Lazy loading images */}
 
             <Link href='/'>
-                <Image src='/../public/assets/icon.png'  width='120' height='70' />
+                <Image className='hover:cursor-pointer' src='/../public/assets/icon.png'  width='120' height='70' />
             </Link>
             <div>
                 <ul style = {{color: `${linkColor}`}} className='hidden md:flex'>
@@ -123,19 +123,19 @@ const Navbar = () => {
                         </Link>
                     </ul>
                     <div className='pt-40'>
-                        <p className='uppercase tracking-widest text-[#6f3d01]'>Contact me</p>
+                        <p className='uppercase tracking-widest text-[#2f1f0b]'>Contact me</p>
                         <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                             <div className='rounded-full shadow-gray-400 shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:shadow-gray-600'>
-                                <FaLinkedinIn />
+                                <a onClick={() => setNav(false)} href='https://www.linkedin.com/in/konstantinos-giovanitsas-10b511150/' target='_blank' className='text-[#6f3d01]'><FaLinkedinIn  /></a>
                             </div>
                             <div className='rounded-full shadow-gray-400 shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:shadow-gray-600'>
-                                <FaGithub />
+                                <a onClick={() => setNav(false)} href='https://github.com/KonsGio' target='_blank' className='text-[#6f3d01]'><FaGithub /></a>
                             </div>
                             <div className='rounded-full shadow-gray-400 shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:shadow-gray-600'>
-                                <AiOutlineMail />
+                                <a onClick={() => setNav(false)} href='/#contact' className='text-[#6f3d01]'><AiOutlineMail /></a>
                             </div>
                             <div className='rounded-full shadow-gray-400 shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:shadow-gray-600'>
-                                <BsFillPersonLinesFill />
+                                <a onClick={() => setNav(false)} href='https://mega.nz/file/xYNlnSCI#B8-UZI987dsWx41SDiqhOHc9Sg0EBqUZKvHOe7P65Ig' target='_blank' className='text-[#6f3d01]'><FaFileDownload /></a>
                             </div>
                         </div>
                     </div>
