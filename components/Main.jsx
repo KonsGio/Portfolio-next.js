@@ -8,7 +8,7 @@ const Main = () => {
   return (
     <div id='main' className='w-full h-screen text-center'>
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
-            <div> 
+            <div className='mt-16'> 
                 <p className='uppercase text-sm tracking-widest text-gray-600'>Thank you for visiting!</p>
                 <h1 className='py-4 text-gray-700'>
                   Hello, I am <span className='text-[#6f3d01]'>Konstantinos.</span>
