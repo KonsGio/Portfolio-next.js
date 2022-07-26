@@ -69,6 +69,9 @@ const Navbar = () => {
                     <Link href='/'>
                         <li className='ml-10 text-sm uppercase hover:text-[#b17225] hover:scale-125 ease-in duration-300'>Home</li>
                     </Link>
+                    <Link href='https://mega.nz/file/xYNlnSCI#B8-UZI987dsWx41SDiqhOHc9Sg0EBqUZKvHOe7P65Ig' rel="noreferrer" target='_blank' >
+                        <li className='ml-10 text-sm uppercase hover:text-[#b17225] hover:scale-125 ease-in duration-300'>Resume</li>
+                    </Link>
                     <Link href='/#about'>
                         <li className='ml-10 text-sm uppercase hover:text-[#b17225] hover:scale-125 ease-in duration-300'>About</li>
                     </Link>
@@ -108,6 +111,9 @@ const Navbar = () => {
                     <ul className='uppercase'>
                         <Link href='/'>
                             <li onClick={() => setNav(false)} className='py-4 text-sm  p-3 cursor-pointer hover:scale-105 ease-in duration-300 '>Home</li>
+                        </Link>
+                        <Link href='https://mega.nz/file/xYNlnSCI#B8-UZI987dsWx41SDiqhOHc9Sg0EBqUZKvHOe7P65Ig' rel="noreferrer" target='_blank' >
+                            <li onClick={() => setNav(false)} className='py-4 text-sm  p-3 cursor-pointer hover:scale-105 ease-in duration-300'>Resume</li>
                         </Link>
                         <Link href='/#about'>
                             <li onClick={() => setNav(false)} className='py-4 text-sm  p-3 cursor-pointer hover:scale-105 ease-in duration-300'>About</li>
