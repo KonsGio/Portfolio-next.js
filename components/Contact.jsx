@@ -55,33 +55,33 @@ const Contact = () => {
                     <form 
                           action={process.env.GET_FORM}
                           method='POST'>
-                          <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
-                            <div className='flex flex-col'>
+                          <div className='grid md:grid-cols-2 gap-4 w-full py-2 '>
+                            <div className='flex flex-col text-[#6f3d01] hover:ease-in '>
                                 <label className='uppercase text-sm py-2'>
                                     Name
                                 </label>
                                 <input type='text' name='name' className='border-2 rounded-lg p-3 flex border-gray-300' /> 
                             </div>
-                            <div className='flex flex-col'>
+                            <div className='flex flex-col text-[#6f3d01] hover:ease-in '>
                                 <label className='uppercase text-sm py-2'>
                                     Phone Number
                                 </label>
                                 <input type='text' name='phone' className='border-2 rounded-lg p-3 flex border-gray-300'/> 
                             </div>
                         </div>
-                        <div className='flex flex-col py-2'>
+                        <div className='flex flex-col py-2 text-[#6f3d01] hover:ease-in '>
                             <label className='uppercase text-sm py-2'>
                                 Email
                             </label>
                             <input type='email' name='email' className='border-2 rounded-lg p-3 flex border-gray-300' /> 
                         </div>
-                        <div className='flex flex-col py-2'>
+                        <div className='flex flex-col py-2 text-[#6f3d01] hover:ease-in '>
                             <label className='uppercase text-sm py-2'>
                                 Subject
                             </label>
                             <input type='text' name='subject' className='border-2 rounded-lg p-3 flex border-gray-300' /> 
                         </div>
-                        <div className='flex flex-col py-2'>
+                        <div className='flex flex-col py-2 text-[#6f3d01] hover:ease-in '>
                             <label className='uppercase text-sm py-2'>
                                 Message
                             </label>
