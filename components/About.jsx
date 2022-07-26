@@ -23,7 +23,7 @@ const About = () => {
                     Having a cold one with friends is also one of my...hobbies, and I could say, the most interesting one.  
                 </p>
                 <Link href='/#projects'>
-                    <p className='py-2 text-gray-600 underline cursor-pointer'>
+                    <p className='py-2 text-[#6f3d01] underline cursor-pointer hover:scale-105 hover:ease-in duration-500'>
                     Check out some of my latest projects.
                     </p>
                </Link>
