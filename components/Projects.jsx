@@ -68,7 +68,7 @@ const Projects = () => {
             <ProjectItem
                 title='Bageri delivery application'
                 backgroundImg={bageri}
-                projectUrl='../projects/todo'
+                projectUrl='../projects/bageri'
                 tech='React | Firebase | TailWind'
             />
             </div>
