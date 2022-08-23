@@ -28,11 +28,11 @@ const bageri = () => {
               <h2>Overview</h2>
               <p>
                 This is a delivery application for a cafeteria in Aiginio, Greece. A friend of mine is the owner and asked me for a delivery application, which he can use
-                to upload new items anytime he wants. Of course, as a good friend I decided to give him something special. The application needs work and this work will not available for the 
+                to upload new items anytime he wants. Of course, as a good friend I decided to give him something special. The application needs work and this work will not be available for the 
                 public to see.
               </p>
               <p>
-                The application controls a firebase database, and is providing the user full control over it. The administrator only can add or remove products and set prices.
+                The application controls a firebase database, and is providing the user with categorized products. The administrator only can add or remove products and set prices.
               </p>
               <a
                 href='https://github.com/KonsGio/Bageri-app'
