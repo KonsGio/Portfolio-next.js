@@ -9,7 +9,7 @@ import tikataka from '/public/assets/projects/tikataka.png';
 import ProjectItem from './ProjectItem';
 import ellines from '/public/assets/projects/ellines.png';
 import todo from '/public/assets/projects/todolist.png';
-
+import bageri from '/public/assets/projects/bageri.png';
 const Projects = () => {
   return (
     <div id='projects' className='w-full'>
@@ -64,6 +64,12 @@ const Projects = () => {
                 backgroundImg={todo}
                 projectUrl='../projects/todo'
                 tech='React | Firebase | Css3'
+            />
+            <ProjectItem
+                title='Bageri delivery application'
+                backgroundImg={bageri}
+                projectUrl='../projects/todo'
+                tech='React | Firebase | TailWind'
             />
             </div>
         </div>
