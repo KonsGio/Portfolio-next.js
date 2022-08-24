@@ -54,8 +54,10 @@ const Contact = () => {
                 <div className='p-4'>
                     <form 
                           action={process.env.GET_FORM}
-                          method='POST'>
-                          <div className='grid md:grid-cols-2 gap-4 w-full py-2 '>
+                          method="POST"
+                          enctype="multipart/form-data"
+                          id="form">
+                         <div className='grid md:grid-cols-2 gap-4 w-full py-2 '>
                             <div className='flex flex-col text-[#6f3d01] hover:ease-in '>
                                 <label className='uppercase text-sm py-2'>
                                     Name
