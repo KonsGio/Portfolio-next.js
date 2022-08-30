@@ -27,7 +27,7 @@ const Main = () => {
                         <a href='https://github.com/KonsGio' rel="noreferrer" target='_blank' className='text-[#6f3d01]'><FaGithub /></a>
                     </div>
                     <div className='rounded-full shadow-gray-400 shadow-lg p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-gray-600'>
-                        <a href='/#contact' className='text-[#6f3d01]'><AiOutlineMail /></a>
+                        <Link href='/#contact' className='text-[#6f3d01]'><AiOutlineMail /></Link>
                     </div>
                     <div className='rounded-full shadow-gray-400 shadow-lg p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-gray-600'>
                         <a href='https://mega.nz/file/ZVdDgThA#cVt8ME2hJh2UZfLZrLIIfvFh91rVZv9oN4E500mEzd8' rel="noreferrer" target='_blank' className='text-[#6f3d01]'><FaFileDownload /></a>
