@@ -72,14 +72,14 @@ const Navbar = () => {
                     <Link href='https://mega.nz/file/xYNlnSCI#B8-UZI987dsWx41SDiqhOHc9Sg0EBqUZKvHOe7P65Ig' rel="noreferrer" target='_blank' >
                         <li className='ml-10 text-sm uppercase hover:text-[#b17225] hover:scale-125 ease-in duration-300'>Resume</li>
                     </Link>
-                    <Link href='/#about'>
-                        <li className='ml-10 text-sm uppercase hover:text-[#b17225] hover:scale-125 ease-in duration-300'>About</li>
-                    </Link>
                     <Link href='/#skills'>
                         <li className='ml-10 text-sm uppercase hover:text-[#b17225] hover:scale-125 ease-in duration-300'>Skills</li>
                     </Link>
                     <Link href='/#projects'>
                         <li className='ml-10 text-sm uppercase hover:text-[#b17225] hover:scale-125 ease-in duration-300'>Projects</li>
+                    </Link>
+                    <Link href='/#about'>
+                        <li className='ml-10 text-sm uppercase hover:text-[#b17225] hover:scale-125 ease-in duration-300'>About</li>
                     </Link>
                     <Link href='/#contact'>
                         <li className='ml-10 text-sm uppercase hover:text-[#b17225] hover:scale-125 ease-in duration-300'>Contact</li>
@@ -115,14 +115,14 @@ const Navbar = () => {
                         <Link href='https://mega.nz/file/ZVdDgThA#cVt8ME2hJh2UZfLZrLIIfvFh91rVZv9oN4E500mEzd8' rel="noreferrer" target='_blank' >
                             <li onClick={() => setNav(false)} className='py-4 text-sm  p-3 cursor-pointer hover:scale-105 ease-in duration-300'>Resume</li>
                         </Link>
-                        <Link href='/#about'>
-                            <li onClick={() => setNav(false)} className='py-4 text-sm  p-3 cursor-pointer hover:scale-105 ease-in duration-300'>About</li>
-                        </Link>
                         <Link href='/#skills'>
                             <li onClick={() => setNav(false)} className='py-4 text-sm  p-3 cursor-pointer hover:scale-105 ease-in duration-300 '>Skills</li>
                         </Link>
                         <Link href='/#projects'>
                             <li onClick={() => setNav(false)} className='py-4 text-sm  p-3 cursor-pointer hover:scale-105 ease-in duration-300 '>Projects</li>
+                        </Link>
+                        <Link href='/#about'>
+                            <li onClick={() => setNav(false)} className='py-4 text-sm  p-3 cursor-pointer hover:scale-105 ease-in duration-300'>About</li>
                         </Link>
                         <Link href='/#contact'>
                             <li onClick={() => setNav(false)} className='py-4 text-sm  p-3 cursor-pointer hover:scale-105 ease-in duration-300 '>Contact</li>
