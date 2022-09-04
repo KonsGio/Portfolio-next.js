@@ -15,10 +15,10 @@ const Projects = () => {
     <div id='projects' className='w-full'>
         <div className='max-w-[1240px] mx-auto px-2 py-20 mt-16'>
             <p className='uppercase text-xl tracking-widest text-[#6f3d01]'>Projects</p>
-            <h2>Take a look at the projects I have built.</h2>
+            <h2>Some of my latest work.</h2>
             <div className='grid md:grid-cols-2 gap-8'>
             <ProjectItem
-                title='My portfolio in React'
+                title='My portfolio in Next.js'
                 backgroundImg={portnext}
                 projectUrl='../projects/portfolionext'
                 tech='React | Next.js | TailWind'
