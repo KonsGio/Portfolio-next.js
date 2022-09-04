@@ -24,7 +24,7 @@ const About = () => {
                 </p>
                 <Link href='/#contact'>
                     <p className='py-2 text-[#6f3d01] underline cursor-pointer hover:scale-105 hover:ease-in duration-500'>
-                    Don't hesitate to contact me.
+                    Don&apos;t hesitate to contact me.
                     </p>
                </Link>
             </div>

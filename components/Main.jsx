@@ -34,7 +34,7 @@ const Main = () => {
                    </div>
                 </div>
                 <div className='flex justify-center py-12'>
-                    <Link href='/#about'>
+                    <Link href='/#skills'>
                         <div className='rounded-full shadow-gray-400 shadow-lg p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-gray-600'>
                             <HiOutlineChevronDoubleDown size={30} className='m-auto text-[#6f3d01]'/>
                         </div>
