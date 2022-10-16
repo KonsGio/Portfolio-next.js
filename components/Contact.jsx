@@ -42,7 +42,7 @@ const Contact = () => {
                                     <a href='mailto:konstantinos.giovanitsas@yahoo.com' className='text-[#6f3d01]'><AiOutlineMail /></a>
                                 </div>
                                 <div className='rounded-full shadow-gray-400 shadow-lg p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-gray-600'>
-                                    <a href='https://mega.nz/file/xYNlnSCI#B8-UZI987dsWx41SDiqhOHc9Sg0EBqUZKvHOe7P65Ig' rel="noreferrer" target='_blank' className='text-[#6f3d01]'><FaFileDownload /></a>
+                                    <a href='https://mega.nz/file/tN1ijTbb#Cy6-jmWSKQn_rbgcOq19FrvSJ_M98avaXaju55J_vYM' rel="noreferrer" target='_blank' className='text-[#6f3d01]'><FaFileDownload /></a>
                             </div>
                       </div>
                 </div>
