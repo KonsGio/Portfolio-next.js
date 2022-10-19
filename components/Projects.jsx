@@ -10,6 +10,8 @@ import ProjectItem from './ProjectItem';
 import ellines from '/public/assets/projects/ellines.png';
 import todo from '/public/assets/projects/todolist.png';
 import bageri from '/public/assets/projects/bageri.png';
+import delta from '/public/assets/projects/delta.png';
+
 const Projects = () => {
   return (
     <div id='projects' className='w-full'>
@@ -70,6 +72,12 @@ const Projects = () => {
                 backgroundImg={bageri}
                 projectUrl='../projects/bageri'
                 tech='React | Firebase | TailWind'
+            />
+            <ProjectItem
+                title='Delta Security Group'
+                backgroundImg={delta}
+                projectUrl='../projects/delta'
+                tech='React | Vite | TailWind'
             />
             </div>
         </div>
