@@ -32,10 +32,22 @@ const Projects = () => {
                 tech='Next.js | Typescript | TailWind'
             />
             <ProjectItem
-                title='Admin UI-Dashboard'
-                backgroundImg={devapp}
-                projectUrl='../projects/devapp'
-                tech='React | Typescript | TailWind'
+                title='Griekse Gemeenschaap van Amsterdam'
+                backgroundImg={ellines}
+                projectUrl='../projects/gemenschaap'
+                tech='Wordrpress | PHP | CSS'
+            />
+            <ProjectItem
+                title='Delta Security Group'
+                backgroundImg={delta}
+                projectUrl='../projects/delta'
+                tech='React | Vite | TailWind'
+            />
+            <ProjectItem
+                title='Bageri delivery application'
+                backgroundImg={bageri}
+                projectUrl='../projects/bageri'
+                tech='React | Firebase | TailWind'
             />
             <ProjectItem
                 title='Travel Companion'
@@ -50,34 +62,22 @@ const Projects = () => {
                 tech='React | Typescript | Stream.io'
             />
             <ProjectItem
+                title='Admin UI-Dashboard'
+                backgroundImg={devapp}
+                projectUrl='../projects/devapp'
+                tech='React | Typescript | TailWind'
+            />
+            <ProjectItem
                 title='Portfolio in html'
                 backgroundImg={portfolio}
                 projectUrl='../projects/myportfolio'
                 tech='HTML5 | Javascript | Css3'
             />
             <ProjectItem
-                title='Griekse Gemeenschaap van Amsterdam'
-                backgroundImg={ellines}
-                projectUrl='../projects/gemenschaap'
-                tech='Wordrpress | PHP | CSS'
-            />
-            <ProjectItem
                 title='A simple to-do list'
                 backgroundImg={todo}
                 projectUrl='../projects/todo'
                 tech='React | Firebase | Css3'
-            />
-            <ProjectItem
-                title='Bageri delivery application'
-                backgroundImg={bageri}
-                projectUrl='../projects/bageri'
-                tech='React | Firebase | TailWind'
-            />
-            <ProjectItem
-                title='Delta Security Group'
-                backgroundImg={delta}
-                projectUrl='../projects/delta'
-                tech='React | Vite | TailWind'
             />
             </div>
         </div>
