@@ -27,16 +27,9 @@ const delta = () => {
               <p>Project</p>
               <h2>Overview</h2>
               <p>
-                ΔΕΛΤΑ Security & Surveillance Group, is a Greek company in the field of private security for over 35 years. It is based in Kimina - Thessaloniki and 
-                provides safety for over 100 clients in more than 30 different areas.
+                ΔΕΛΤΑ Security & Surveillance Group, is a Greek company in the field of private security for over 25 years. It is based in Kimina - Thessaloniki and 
+                provides safety for over 100 clients in more than 1200 different areas.
               </p>
-              <a
-                href='https://github.com/KonsGio/Delta-Security'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <button className='px-8 py-2 mt-4 mr-8'>Code</button>
-              </a>
               <a
                 href='https://deltasecurity.netlify.app'
                 target='_blank'
