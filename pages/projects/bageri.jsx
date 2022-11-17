@@ -3,6 +3,7 @@ import Image from 'next/image';
 import bageriimg from '../../public/assets/projects/bageri.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
+import {HiOutlineChevronDoubleLeft} from 'react-icons/hi';
 
 const bageri = () => {
   return (
@@ -75,9 +76,13 @@ const bageri = () => {
                 </div>
               </div>
             </div>
-            <Link href='/#projects'>
-              <p className='underline cursor-pointer'>Back</p>
-            </Link>
+            <div className='flex justify-center py-12'>
+                    <Link href='/#projects'>
+                        <div className='rounded-full shadow-gray-400 shadow-lg p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-gray-600'>
+                            <HiOutlineChevronDoubleLeft size={30} className='m-auto text-[#6f3d01]'/>
+                        </div>
+                    </Link>
+            </div>
           </div>
         </div>
   )
