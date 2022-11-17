@@ -15,12 +15,11 @@ const About = () => {
                 <h3 className='py-2 text-gray-600'>I am a software Developer</h3>
                 <p className='py-2 text-gray-600'>
                     My name is Konstantinos Giovanitsas or simply Kostas, and I am from Greece. I have a Sc.B in Computer, Informatics and Telecommunications Engineering. I am living both in Greece and Netherlands, 
-                    if only i could describe the positive aspects of that. 
+                    if only I could describe the positive aspects of that. 
                 </p>
                 <p className='py-2 text-gray-600'>
                     I have always been mingling with computers. It is a fun thing for me to search new things and develop my skills. 
-                    In my free time I never let it go to waste. I enjoy playing music as well as going on hikes with my dog Caesar, a black labrador.
-                    Having a cold one with friends is also one of my hobbies, and the most funny one.  
+                    In my free time I never let it go to waste. I enjoy playing and creating my own music with my favorite guitar ESP-1000QM, as well as going on hikes with my dog Caesar, a black labrador.
                 </p>
                 <Link href='/#contact'>
                     <p className='py-2 text-[#6f3d01] underline cursor-pointer hover:scale-105 hover:ease-in duration-500'>
