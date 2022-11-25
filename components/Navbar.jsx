@@ -11,8 +11,8 @@ const Navbar = () => {
     // Use State for navbar menu
     const [nav, setNav] = useState(false);
     const [shadow, setShadow] = useState(false);
-    const [navBg, setNavBg] = useState('#ecf0f3');
-    const [linkColor, setLinkColor] = useState('6f3d01');
+    const [navBg, setNavBg] = useState('#e4e0da');
+    const [linkColor, setLinkColor] = useState('#6f3d01');
     const router = useRouter()
 
     useEffect(() => {
@@ -30,9 +30,9 @@ const Navbar = () => {
             router.asPath === '/projects/δελτα'
         ) {
             setNavBg('transparent')
-            setLinkColor('#ecf0f3')
+            setLinkColor('#e4e0da')
         } else {
-            setNavBg('#ecf0f3')
+            setNavBg('#e4e0da')
             setLinkColor('#6f3d01')
         }
       
@@ -60,7 +60,7 @@ const Navbar = () => {
 
     <div 
         style={{backgroundColor: `${navBg}`}}
-        className={shadow ? 'fixed w-full h-20 shadow-xl z-[100] ' : 'fixed w-full h-20 z-[100] '}>
+        className={shadow ? 'fixed w-full h-20 shadow-xl shadow-[#ad7e446b] z-[100] ' : 'fixed w-full h-20 z-[100] '}>
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
             {/* Lazy loading images */}
 
@@ -78,8 +78,8 @@ const Navbar = () => {
                     <Link href='https://mega.nz/file/tN1ijTbb#Cy6-jmWSKQn_rbgcOq19FrvSJ_M98avaXaju55J_vYM' rel="noreferrer" target='_blank' >
                         <li className='ml-10 text-sm uppercase hover:text-[#b17225] hover:scale-125 ease-in duration-300'>Resume</li>
                     </Link>
-                    <Link href='/#skills'>
-                        <li className='ml-10 text-sm uppercase hover:text-[#b17225] hover:scale-125 ease-in duration-300'>Skills</li>
+                    <Link href='/#tools'>
+                        <li className='ml-10 text-sm uppercase hover:text-[#b17225] hover:scale-125 ease-in duration-300'>Tools</li>
                     </Link>
                     <Link href='/#projects'>
                         <li className='ml-10 text-sm uppercase hover:text-[#b17225] hover:scale-125 ease-in duration-300'>Projects</li>
@@ -121,8 +121,8 @@ const Navbar = () => {
                         <Link href='https://mega.nz/file/tN1ijTbb#Cy6-jmWSKQn_rbgcOq19FrvSJ_M98avaXaju55J_vYM' rel="noreferrer" target='_blank' >
                             <li onClick={() => setNav(false)} className='py-4 text-sm  p-3 cursor-pointer hover:scale-105 ease-in duration-300'>Resume</li>
                         </Link>
-                        <Link href='/#skills'>
-                            <li onClick={() => setNav(false)} className='py-4 text-sm  p-3 cursor-pointer hover:scale-105 ease-in duration-300 '>Skills</li>
+                        <Link href='/#tools'>
+                            <li onClick={() => setNav(false)} className='py-4 text-sm  p-3 cursor-pointer hover:scale-105 ease-in duration-300 '>Tools</li>
                         </Link>
                         <Link href='/#projects'>
                             <li onClick={() => setNav(false)} className='py-4 text-sm  p-3 cursor-pointer hover:scale-105 ease-in duration-300 '>Projects</li>
