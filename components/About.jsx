@@ -12,22 +12,21 @@ const About = () => {
                     INFORMATION ABOUT ME
                 </p>
                 <h2 className='py-4'>Who I Am</h2>
-                <h3 className='py-2 text-gray-600'>I am a software Developer</h3>
+                <h3 className='py-2 text-gray-600'>I am a Software Engineer</h3>
                 <p className='py-2 text-gray-600'>
-                    My name is Konstantinos Giovanitsas or simply Kostas, and I am from Greece. I have a Sc.B in Computer, Informatics and Telecommunications Engineering. I am living both in Greece and Netherlands, 
-                    if only I could describe the positive aspects of that. 
+                    My name is Konstantinos Giovanitsas or simply Kostas, and I am from Greece. I have a Sc.B in Computer, Informatics and Telecommunications Engineering.
                 </p>
                 <p className='py-2 text-gray-600'>
                     I have always been mingling with computers. It is a fun thing for me to search new things and develop my skills. 
                     In my free time I never let it go to waste. I enjoy playing and creating my own music with my favorite guitar ESP-1000QM, as well as going on hikes with my dog Caesar, a black labrador.
                 </p>
-                <Link href='/#contact'>
+                {/* <Link href='/#contact'>
                     <p className='py-2 text-[#6f3d01] underline cursor-pointer hover:scale-105 hover:ease-in duration-500'>
                     Don&apos;t hesitate to contact me.
                     </p>
-               </Link>
+               </Link> */}
             </div>
-            <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+            <div className='w-full h-auto m-auto shadow-xl shadow-[#6f3d01a5] hover:shadow-[#ad7e44] rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
              <Image src={AboutImg} className='rounded-xl' alt='/' />
            </div>
         </div>
