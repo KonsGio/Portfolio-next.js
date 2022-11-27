@@ -36,14 +36,14 @@ const portfolionext = () => {
                 target='_blank'
                 rel='noreferrer'
               >
-                <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+                <button className='px-8 py-2 mt-4 mr-8 shadow-[#6f3d01a5] hover:shadow-[#ad7e44] hover:scale-110 ease-in duration-300'>Code</button>
               </a>
               <a
                 href='https://www.kgio.dev'
                 target='_blank'
                 rel='noreferrer'
               >
-                <button className='px-8 py-2 mt-4'>Demo</button>
+                <button className='px-8 py-2 mt-4 shadow-[#6f3d01a5] hover:shadow-[#ad7e44] hover:scale-110 ease-in duration-300'>Demo</button>
               </a>
     
             </div>
@@ -68,7 +68,7 @@ const portfolionext = () => {
             </div>
             <div className='flex justify-center py-12'>
                     <Link href='/#projects'>
-                        <div className='rounded-full shadow-gray-400 shadow-lg p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-gray-600'>
+                        <div className='rounded-full shadow-lg p-6 cursor-pointer hover:scale-110 ease-in duration-300 shadow-[#6f3d01a5] hover:shadow-[#ad7e44]'>
                             <HiOutlineChevronDoubleLeft size={30} className='m-auto text-[#6f3d01]'/>
                         </div>
                     </Link>
