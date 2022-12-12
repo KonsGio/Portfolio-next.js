@@ -32,7 +32,7 @@ const delta = () => {
                 provides safety for over 100 clients in more than 1200 different areas.
               </p>
               <a
-                href='https://deltasecurity.netlify.app'
+                href='https://www.deltasecurity.info'
                 target='_blank'
                 rel='noreferrer'
               >
