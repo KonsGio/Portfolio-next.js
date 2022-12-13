@@ -29,7 +29,7 @@ const delta = () => {
               <h2>Overview</h2>
               <p>
                 ΔΕΛΤΑ Security & Surveillance Group, is a Greek company in the field of private security for over 25 years. It is based in Kimina - Thessaloniki and 
-                provides safety for over 100 clients in more than 1200 different areas.
+                provides safety for over 300 clients in more than 1200 different areas.
               </p>
               <a
                 href='https://www.deltasecurity.info'
