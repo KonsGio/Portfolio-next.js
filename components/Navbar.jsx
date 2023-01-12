@@ -27,7 +27,9 @@ const Navbar = () => {
             router.asPath === '/projects/todo'||
             router.asPath === '/projects/bageri' ||
             router.asPath === '/projects/myportfolio' ||
-            router.asPath === '/projects/δελτα'
+            router.asPath === '/projects/delta' || 
+            router.asPath === '/projects/gpt'
+
         ) {
             setNavBg('transparent')
             setLinkColor('#e4e0da')
