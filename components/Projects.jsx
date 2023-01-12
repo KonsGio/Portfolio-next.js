@@ -11,6 +11,7 @@ import ellines from '/public/assets/projects/ellines.png';
 import todo from '/public/assets/projects/todolist.png';
 import bageri from '/public/assets/projects/bageri.png';
 import delta from '/public/assets/projects/delta.png';
+import gptimg from '/public/assets/projects/gpt.png';
 
 const Projects = () => {
   return (
@@ -66,6 +67,12 @@ const Projects = () => {
                 backgroundImg={devapp}
                 projectUrl='../projects/devapp'
                 tech='React | Typescript | TailWind'
+            />
+            <ProjectItem
+                title='A Gpt-ai chat assistant'
+                backgroundImg={gptimg}
+                projectUrl='../projects/gpt'
+                tech='Vanilla Js | OpenAi | Vite'
             />
             <ProjectItem
                 title='Portfolio in html'
