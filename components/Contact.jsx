@@ -11,7 +11,7 @@ const Contact = () => {
 
   return (
     <div id='contact' className='w-full lg:h-screen'>
-        <div className='max-w-[1240px] m-auto px-2 py-20 w-full mt-16'>
+        <div className='max-w-[1240px] m-auto px-2 py-20 w-full mt-16 '>
             <p className='text-xl tracking-widest uppercase text-[#6f3d01]'>
                 Contact
             </p>
@@ -20,7 +20,7 @@ const Contact = () => {
             </h2>
             <div className='grid lg:grid-cols-5 gap-8'>
 {/* Left */}
-            <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-[#6f3d01a5] rounded-xl p-4'>
+            <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-[#6f3d01a5] rounded-xl p-4  hover:shadow-xxl hover:shadow-[#ad7e44]  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300'>
                 <div className='lg:p-4'>
                     <Image className='rounded-xl hover:scale-105 ease-in duration-300' src={contactpic}  alt='/'/>
                 </div>
@@ -50,7 +50,7 @@ const Contact = () => {
  
  {/* Right */}
 
-            <div className='col-span-3 w-full h-auto shadow-xl shadow-[#6f3d01a5] rounded-xl lg:p-4'>
+            <div className='col-span-3 w-full h-auto rounded-xl lg:p-4 shadow-xl shadow-[#6f3d01a5] hover:shadow-xxl hover:shadow-[#ad7e44] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300'>
                 <div className='p-4'>
                     <form 
                           action={process.env.GET_FORM}
