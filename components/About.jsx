@@ -14,11 +14,11 @@ const About = () => {
                 <h2 className='py-4'>Who I Am</h2>
                 <h3 className='py-2 text-gray-600'>I am a Software Engineer</h3>
                 <p className='py-2 text-gray-600'>
-                    My name is Konstantinos Giovanitsas or simply Kostas, and I am from Greece. I have a Sc.B in Computer, Informatics and Telecommunications Engineering.
+                Welcome to my portfolio website! My name is Konstantinos and I am a web developer with a passion for creating beautiful, functional websites.
                 </p>
                 <p className='py-2 text-gray-600'>
-                    I have always been mingling with computers. It is a fun thing for me to search new things and develop my skills. 
-                    In my free time I never let it go to waste. I enjoy playing and creating my own music with my favorite guitar ESP-1000QM, as well as going on hikes with my dog Caesar, a black labrador.
+                 I have been working in the web development industry for over 2 years and have had the opportunity to work on a variety of projects. On this website, 
+                you will find examples of my work, as well as information about me and my skills. Feel free to explore and contact me if you have any questions or would like to discuss a project. Thank you for visiting!
                 </p>
                 {/* <Link href='/#contact'>
                     <p className='py-2 text-[#6f3d01] underline cursor-pointer hover:scale-105 hover:ease-in duration-500'>
