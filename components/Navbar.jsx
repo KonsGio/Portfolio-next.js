@@ -27,7 +27,9 @@ const Navbar = () => {
             router.asPath === '/projects/todo'||
             router.asPath === '/projects/bageri' ||
             router.asPath === '/projects/myportfolio' ||
-            router.asPath === '/projects/δελτα'
+            router.asPath === '/projects/delta' || 
+            router.asPath === '/projects/gpt'
+
         ) {
             setNavBg('transparent')
             setLinkColor('#e4e0da')
@@ -75,7 +77,7 @@ const Navbar = () => {
                     <Link href='/#about'>
                         <li className='ml-10 text-sm uppercase hover:text-[#b17225] hover:scale-125 ease-in duration-300'>About</li>
                     </Link>
-                    <Link href='https://mega.nz/file/tN1ijTbb#Cy6-jmWSKQn_rbgcOq19FrvSJ_M98avaXaju55J_vYM' rel="noreferrer" target='_blank' >
+                    <Link href='https://mega.nz/file/EA1AHBCS#vC9NaguLb-eyJrEI1znGi8PBFFTEa20h_Q5BLmM4KuM' rel="noreferrer" target='_blank' >
                         <li className='ml-10 text-sm uppercase hover:text-[#b17225] hover:scale-125 ease-in duration-300'>Resume</li>
                     </Link>
                     <Link href='/#tools'>
@@ -118,7 +120,7 @@ const Navbar = () => {
                         <Link href='/#about'>
                             <li onClick={() => setNav(false)} className='py-4 text-sm  p-3 cursor-pointer hover:scale-105 ease-in duration-300'>About</li>
                         </Link>
-                        <Link href='https://mega.nz/file/tN1ijTbb#Cy6-jmWSKQn_rbgcOq19FrvSJ_M98avaXaju55J_vYM' rel="noreferrer" target='_blank' >
+                        <Link href='https://mega.nz/file/EA1AHBCS#vC9NaguLb-eyJrEI1znGi8PBFFTEa20h_Q5BLmM4KuM' rel="noreferrer" target='_blank' >
                             <li onClick={() => setNav(false)} className='py-4 text-sm  p-3 cursor-pointer hover:scale-105 ease-in duration-300'>Resume</li>
                         </Link>
                         <Link href='/#tools'>
@@ -144,7 +146,7 @@ const Navbar = () => {
                                 <a onClick={() => setNav(false)} href='mailto:konstantinos.giovanitsas@yahoo.com' className='text-[#6f3d01]'><AiOutlineMail /></a>
                             </div>
                             <div className='rounded-full shadow-gray-400 shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:shadow-gray-600'>
-                                <a onClick={() => setNav(false)} href='https://mega.nz/file/tN1ijTbb#Cy6-jmWSKQn_rbgcOq19FrvSJ_M98avaXaju55J_vYM' rel="noreferrer" target='_blank' className='text-[#6f3d01]'><FaFileDownload /></a>
+                                <a onClick={() => setNav(false)} href='https://mega.nz/file/EA1AHBCS#vC9NaguLb-eyJrEI1znGi8PBFFTEa20h_Q5BLmM4KuM' rel="noreferrer" target='_blank' className='text-[#6f3d01]'><FaFileDownload /></a>
                             </div>
                         </div>
                     </div>
