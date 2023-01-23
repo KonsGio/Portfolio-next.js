@@ -35,14 +35,14 @@ const imageai = () => {
                 The above welcome message is created by OpenAI&apos;s Chat-Gpt AI. Isn&apos;t the power of AI amazing?
               </p>
               <a
-                href='https://github.com/KonsGio/Bageri-app'
+                href='https://github.com/KonsGio/Image-generation'
                 target='_blank'
                 rel='noreferrer'
               >
                 <button className='px-8 py-2 mt-4 mr-8 shadow-[#6f3d01a5] hover:shadow-[#ad7e44] hover:scale-110 ease-in duration-300'>Code</button>
               </a>
               <a
-                href='https://bageri-delivery.netlify.app'
+                href='https://kgio-image-generating-app.netlify.app'
                 target='_blank'
                 rel='noreferrer'
               >
