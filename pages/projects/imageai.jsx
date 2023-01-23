@@ -32,7 +32,7 @@ const imageai = () => {
               Welcome to our DALL-E powered image generation clone app! This application utilizes the cutting-edge AI technology of OpenAI&apos;s DALL-E model to generate high-quality, unique images based on your input. With this app, you can easily create custom images that perfectly match your needs, whether it&apos;s for a website, presentation, or any other purpose. Our user-friendly interface makes it simple for anyone to use, and the results are always impressive. Try it out now and see the power of DALL-E for yourself!
               </p>
               <p>
-                The above welcome message is created by OpenAI's Chat-Gpt AI. Isn&apos;t the power of AI amazing?
+                The above welcome message is created by OpenAI&apos;s Chat-Gpt AI. Isn&apos;t the power of AI amazing?
               </p>
               <a
                 href='https://github.com/KonsGio/Bageri-app'
