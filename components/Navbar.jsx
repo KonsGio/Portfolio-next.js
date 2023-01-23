@@ -28,7 +28,8 @@ const Navbar = () => {
             router.asPath === '/projects/bageri' ||
             router.asPath === '/projects/myportfolio' ||
             router.asPath === '/projects/delta' || 
-            router.asPath === '/projects/gpt'
+            router.asPath === '/projects/gpt',
+            router.asPath === '/projects/imageai'
 
         ) {
             setNavBg('transparent')

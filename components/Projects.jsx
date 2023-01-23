@@ -12,6 +12,7 @@ import todo from '/public/assets/projects/todolist.png';
 import bageri from '/public/assets/projects/bageri.png';
 import delta from '/public/assets/projects/delta.png';
 import gptimg from '/public/assets/projects/gpt.png';
+import imagegenimg from '/public/assets/projects/imagegen.png';
 
 const Projects = () => {
   return (
@@ -20,6 +21,18 @@ const Projects = () => {
             <p className='uppercase text-xl tracking-widest text-[#6f3d01]'>Projects</p>
             <h2>Some of my latest work.</h2>
             <div className='grid md:grid-cols-2 gap-8'>
+            <ProjectItem
+                title='A Gpt-ai chat assistant'
+                backgroundImg={imagegenimg}
+                projectUrl='../projects/imageai'
+                tech='React Js | OpenAi | Vite'
+            />
+            <ProjectItem
+                title='A Gpt-ai chat assistant'
+                backgroundImg={gptimg}
+                projectUrl='../projects/gpt'
+                tech='Vanilla Js | OpenAi | Vite'
+            />
             <ProjectItem
                 title='My portfolio in Next.js'
                 backgroundImg={portnext}
@@ -67,12 +80,6 @@ const Projects = () => {
                 backgroundImg={devapp}
                 projectUrl='../projects/devapp'
                 tech='React | Typescript | TailWind'
-            />
-            <ProjectItem
-                title='A Gpt-ai chat assistant'
-                backgroundImg={gptimg}
-                projectUrl='../projects/gpt'
-                tech='Vanilla Js | OpenAi | Vite'
             />
             <ProjectItem
                 title='Portfolio in html'

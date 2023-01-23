@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image';
-import gptimg from '../../public/assets/projects/gpt.png';
+import imagegen from '../../public/assets/projects/imagegen.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import {HiOutlineChevronDoubleLeft} from 'react-icons/hi';
 
-const gpt = () => {
+const imageai = () => {
   return (
     <div className='w-full'>
           <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
@@ -14,12 +14,13 @@ const gpt = () => {
               className='absolute z-1'
               layout='fill'
               objectFit='cover'
-              src={gptimg}
+              src={imagegen}
               alt='/'
+              priority={true}
             />
             <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-              <h2 className='py-2'>GPT-Ai Chat Assistant</h2>
-              <h3>Vanilla JS / OpenAi / Vite</h3>
+              <h2 className='py-2'>Image generating AI</h2>
+              <h3>React JS / OpenAi / Vite</h3>
             </div>
           </div>
     
@@ -28,19 +29,20 @@ const gpt = () => {
               <p>Project</p>
               <h2>Overview</h2>
               <p>
-              ChatGPT (Generative Pre-trained Transformer) is a chatbot launched by OpenAI in November 2022. It is built on top of OpenAI&apos;s GPT-3 family of large language models, and is fine-tuned (an approach to transfer learning) with both supervised and reinforcement learning techniques.
+              Welcome to our DALL-E powered image generation clone app! This application utilizes the cutting-edge AI technology of OpenAI&apos;s DALL-E model to generate high-quality, unique images based on your input. With this app, you can easily create custom images that perfectly match your needs, whether it&apos;s for a website, presentation, or any other purpose. Our user-friendly interface makes it simple for anyone to use, and the results are always impressive. Try it out now and see the power of DALL-E for yourself!
               </p>
               <p>
-              ChatGPT was launched as a prototype on November 30, 2022, and quickly garnered attention for its detailed responses and articulate answers across many domains of knowledge. Its uneven factual accuracy was identified as a significant drawback. Following the release of ChatGPT, OpenAI was reportedly valued at $29 billion.              </p>
+                The above welcome message is created by OpenAI's Chat-Gpt AI. Isn&apos;t the power of AI amazing?
+              </p>
               <a
-                href='https://github.com/KonsGio/GPTAi'
+                href='https://github.com/KonsGio/Bageri-app'
                 target='_blank'
                 rel='noreferrer'
               >
                 <button className='px-8 py-2 mt-4 mr-8 shadow-[#6f3d01a5] hover:shadow-[#ad7e44] hover:scale-110 ease-in duration-300'>Code</button>
               </a>
               <a
-                href='https://kgio-gpt-ai.netlify.app'
+                href='https://bageri-delivery.netlify.app'
                 target='_blank'
                 rel='noreferrer'
               >
@@ -53,13 +55,16 @@ const gpt = () => {
                 <p className='text-center font-bold pb-2'>Technologies used</p>
                 <div className='grid grid-cols-3 md:grid-cols-1 '>
                   <p className='text-gray-600 py-2 flex items-center'>
+                    <RiRadioButtonFill className='pr-1' /> React
+                  </p>
+                  <p className='text-gray-600 py-2 flex items-center'>
                     <RiRadioButtonFill className='pr-1' /> Vite
                   </p>
                   <p className='text-gray-600 py-2 flex items-center'>
-                    <RiRadioButtonFill className='pr-1' /> Vanilla Js
+                    <RiRadioButtonFill className='pr-1' /> Tailwind
                   </p>
                   <p className='text-gray-600 py-2 flex items-center'>
-                    <RiRadioButtonFill className='pr-1' /> OpenAi
+                    <RiRadioButtonFill className='pr-1' /> OpenAI
                   </p>
                   <p className='text-gray-600 py-2 flex items-center'>
                     <RiRadioButtonFill className='pr-1' /> Nodemon
@@ -82,4 +87,4 @@ const gpt = () => {
   )
 }
 
-export default gpt
+export default imageai
