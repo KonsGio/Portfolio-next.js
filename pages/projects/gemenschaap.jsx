@@ -26,13 +26,12 @@ const gemenschaap = () => {
           <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
             <div className='col-span-4'>
               <p>Project</p>
-              <h2>Overview</h2>
+              <h2>Overview</h2><br></br>
               <p>
-                Griekse Gemeenschap van Amsterdam, is the Greek community of Amsterdam and its surrounding areas. 
-              </p>
+                The Griekse Gemeenschap van Amsterdam represents the Greek community of Amsterdam and its surrounding regions. 
+              </p><br></br>
               <p>
-                This website was built in the Wordpress environment, along with the Colibri template.
-                
+                Designed to bring this vibrant community together, this website was expertly crafted using the Wordpress platform and features the elegant Colibri template. 
               </p>
         
               <a

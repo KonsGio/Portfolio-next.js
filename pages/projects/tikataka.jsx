@@ -26,9 +26,9 @@ const tikataka = () => {
           <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
             <div className='col-span-4'>
               <p>Project</p>
-              <h2>Overview</h2>
+              <h2>Overview</h2><br></br>
               <p>
-              Tika Taka is an application inspired by tik-tok where you can log in with your Google account, upload videos and memes, and have lots of fun. Give it a go yourself!
+                Tika Taka is a fun and interactive platform, bringing the best of TikTok-style content right to your fingertips. With the ability to log in using your Google account, uploading and sharing your own videos and memes has never been easier. So why wait? Join the Tika Taka community and experience the thrill of creativity today!
               </p>
               <a
                 href='https://github.com/KonsGio/Tika-Taka'

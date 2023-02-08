@@ -26,14 +26,12 @@ const bageri = () => {
           <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
             <div className='col-span-4'>
               <p>Project</p>
-              <h2>Overview</h2>
+              <h2>Overview</h2><br></br>
               <p>
-                This is a delivery application for a cafeteria in Aiginio, Greece. A friend of mine is the owner and asked me for a delivery application, which he can use
-                to upload new items anytime he wants. Of course, as a good friend I decided to give him something special. The application needs work and this work will not be available for the 
-                public to see.
-              </p>
+                Introducing a cutting-edge delivery application designed specifically for a cafeteria located in Aiginio, Greece. This application was created as a special request from a close friend who owns the establishment, seeking a convenient platform to upload and manage menu items. 
+              </p><br></br>
               <p>
-                The application controls a firebase database, and is providing the user with categorized products. The administrator only can add or remove products and set prices.
+                The application leverages the power of Firebase database to categorize products, providing an intuitive and organized experience for users. Only the administrator has access to add or remove menu items and set prices, ensuring streamlined management of the cafeteria's offerings. 
               </p>
               <a
                 href='https://github.com/KonsGio/Bageri-app'

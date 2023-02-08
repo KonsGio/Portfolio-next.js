@@ -27,10 +27,10 @@ const portfolionext = () => {
           <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
             <div className='col-span-4'>
               <p>Project</p>
-              <h2>Overview</h2>
+              <h2>Overview</h2><br></br>
               <p>
-                This portfolio website is designed in React with next.js, it is the second portfolio in my projects and the better looking one. 
-              </p>
+              Welcome to my portfolio website, showcasing my skills and expertise as a developer. Built using React and next.js, this site represents the evolution of my portfolio, featuring a sleek and sophisticated design that showcases my work in the best light possible.
+            </p>
               <a
                 href='https://github.com/KonsGio/Portfolio-next.js'
                 target='_blank'

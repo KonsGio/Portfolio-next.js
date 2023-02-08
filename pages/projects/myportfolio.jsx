@@ -26,7 +26,7 @@ const myportfolio = () => {
           <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
             <div className='col-span-4'>
               <p>Project</p>
-              <h2>Overview</h2>
+              <h2>Overview</h2><br></br>
               <p>
                 This project is the first attempt of building my own website portfolio. It is a simple HTML page spiced up with css and javascript. 
               </p>

@@ -26,10 +26,9 @@ const delta = () => {
           <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
             <div className='col-span-4'>
               <p>Project</p>
-              <h2>Overview</h2>
+              <h2>Overview</h2><br></br>
               <p>
-                ΔΕΛΤΑ Security & Surveillance Group, is a Greek company in the field of private security for over 25 years. It is based in Kimina - Thessaloniki and 
-                provides safety for over 300 clients in more than 1200 different areas.
+                ΔΕΛΤΑ Security & Surveillance Group is a premier provider of private security services with over 25 years of experience. Based in Kimina, Thessaloniki, the company has been serving over 300 clients across more than 1,200 different locations, offering unparalleled protection and peace of mind. 
               </p>
               <a
                 href='https://www.deltasecurity.info'

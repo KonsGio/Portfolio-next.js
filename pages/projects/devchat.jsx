@@ -26,14 +26,12 @@ const devchat = () => {
           <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
             <div className='col-span-4'>
               <p>Project</p>
-              <h2>Overview</h2>
+              <h2>Overview</h2><br></br>
               <p>
-              This is a chat application built in React.js, with sign up and log in features. A database in <strong><a href="https://getstream.io/chat/">stream.io</a></strong> is responsible for hosting the user data. 
-              From there someone can add, remove update users, but also give privileges on database manipulation.
-               Also the application is going to be set up with <strong><a href="https://www.twilio.com">Twilio</a></strong>, an app which sends sms notifications to the user when they have a new message.
-              </p>
+                Experience seamless communication with this cutting-edge chat application, built using React.js and equipped with sign-up and login features. User data is securely stored in a database powered by <strong><a href="https://getstream.io/chat/">stream.io</a></strong>, allowing for easy management and manipulation of users and privileges. The application is also integrated with <strong><a href="https://www.twilio.com">Twilio</a></strong>, delivering SMS notifications to users as soon as they receive a new message. 
+              </p><br></br>
               <p>
-              For more information about these tools, you can either visit their websites or search for some examples.
+                To learn more about these powerful tools, simply visit their websites or explore examples and tutorials.
               </p>
               <a
                 href='https://github.com/KonsGio/Dev-chat'

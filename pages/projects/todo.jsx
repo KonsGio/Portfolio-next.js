@@ -26,7 +26,7 @@ const todo = () => {
     <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
       <div className='col-span-4'>
         <p>Project</p>
-        <h2>Overview</h2>
+        <h2>Overview</h2><br></br>
         <p>
           This is a simple To-do application with a database that is hosted on <strong><a href='https://firebase.google.com'>Firebase.</a></strong>
         </p>

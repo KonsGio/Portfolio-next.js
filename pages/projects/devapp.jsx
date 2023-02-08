@@ -26,12 +26,10 @@ const devapp = () => {
           <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
             <div className='col-span-4'>
               <p>Project</p>
-              <h2>Overview</h2>
+              <h2>Overview</h2><br></br>
               <p>
-                This UI Dashboard application features a number of visual representations for income and outcome values and also general tools for simulating chart data. 
-                This project was built, to explore the ready components that <a href="https://www.syncfusion.com"><strong>Syncfusion </strong></a>provides.
-
-              </p>
+              This user-friendly UI Dashboard application is designed to showcase a range of data insights through visually appealing representations of income and expenses. With built-in tools to simulate chart data, this project was created to demonstrate the versatility and functionality of ready components offered by <a href="https://www.syncfusion.com"><strong>Syncfusion</strong></a>. 
+            </p>
               <a
                 href='https://github.com/KonsGio/Admin-UI-Dashboard'
                 target='_blank'

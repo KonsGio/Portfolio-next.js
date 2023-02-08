@@ -26,16 +26,12 @@ const mapapp = () => {
           <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
             <div className='col-span-4'>
               <p>Project</p>
-              <h2>Overview</h2>
+              <h2>Overview</h2><br></br>
               <p>
-                Travel Companion is an application that does exactly what its name says. You can bring Travel Companion wherever you are. The application is 
-                capable of fetching data for Restaurants, Hotels and Attractions nearby. It has the ability to discover user&apos location and bring the 
-                suitable options around. 
-              </p>
-              Several APIs were used in this project, with the most important of them, the Google-maps-API which enables as to build a map application
-              capable of fetching real data from the google database.
+                Travel Companion is your go-to travel companion, providing all the information you need to make the most of your trips. Whether you're looking for nearby restaurants, hotels, or attractions, Travel Companion's powerful search capabilities help you find exactly what you need. With the ability to detect your location and show the best options around you, this application is the perfect travel partner.
+              </p><br></br>
               <p>
-                
+                The development of Travel Companion was powered by several APIs, including the essential Google Maps API, which leverages the vast Google database to deliver accurate, up-to-date information in real-time. 
               </p>
               <a
                 href='https://github.com/KonsGio/Travel-companion'
