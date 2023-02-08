@@ -31,7 +31,7 @@ const bageri = () => {
                 Introducing a cutting-edge delivery application designed specifically for a cafeteria located in Aiginio, Greece. This application was created as a special request from a close friend who owns the establishment, seeking a convenient platform to upload and manage menu items. 
               </p><br></br>
               <p>
-                The application leverages the power of Firebase database to categorize products, providing an intuitive and organized experience for users. Only the administrator has access to add or remove menu items and set prices, ensuring streamlined management of the cafeteria's offerings. 
+                The application leverages the power of Firebase database to categorize products, providing an intuitive and organized experience for users. Only the administrator has access to add or remove menu items and set prices, ensuring streamlined management of the cafeteria&apos;s offerings. 
               </p>
               <a
                 href='https://github.com/KonsGio/Bageri-app'

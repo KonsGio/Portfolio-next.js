@@ -28,7 +28,7 @@ const mapapp = () => {
               <p>Project</p>
               <h2>Overview</h2><br></br>
               <p>
-                Travel Companion is your go-to travel companion, providing all the information you need to make the most of your trips. Whether you're looking for nearby restaurants, hotels, or attractions, Travel Companion's powerful search capabilities help you find exactly what you need. With the ability to detect your location and show the best options around you, this application is the perfect travel partner.
+                Travel Companion is your go-to travel companion, providing all the information you need to make the most of your trips. Whether you&apos;re looking for nearby restaurants, hotels, or attractions, Travel Companion&apos;s powerful search capabilities help you find exactly what you need. With the ability to detect your location and show the best options around you, this application is the perfect travel partner.
               </p><br></br>
               <p>
                 The development of Travel Companion was powered by several APIs, including the essential Google Maps API, which leverages the vast Google database to deliver accurate, up-to-date information in real-time. 
