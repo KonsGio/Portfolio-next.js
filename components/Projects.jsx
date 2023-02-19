@@ -13,6 +13,7 @@ import bageri from '/public/assets/projects/bageri.png';
 import delta from '/public/assets/projects/delta.png';
 import gptimg from '/public/assets/projects/gpt.png';
 import imagegenimg from '/public/assets/projects/imagegen.png';
+import yelpcampimg from '/public/assets/projects/yelpcamp.png';
 
 const Projects = () => {
   return (
@@ -21,6 +22,12 @@ const Projects = () => {
             <p className='uppercase text-xl tracking-widest text-[#6f3d01]'>Projects</p>
             <h2>Some of my latest work.</h2>
             <div className='grid md:grid-cols-2 gap-8'>
+            <ProjectItem
+                title='A Gpt-ai chat assistant'
+                backgroundImg={yelpcampimg}
+                projectUrl='../projects/yelpcamp'
+                tech=' EJS | MongoDB | Node.js'
+            />
             <ProjectItem
                 title='A Gpt-ai chat assistant'
                 backgroundImg={imagegenimg}
