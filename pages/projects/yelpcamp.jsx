@@ -30,7 +30,7 @@ const yelpcamp = () => {
               <br></br>
               <p>YelpCamp is a full-stack web application that I developed using Node.js, Express, MongoDB, and Bootstrap. Inspired by the popular Yelp platform, YelpCamp allows users to browse and review campgrounds, as well as create their own campground listings.</p>
               <br></br> 
-              <p>The application includes many features such as user authentication, authorization, and password encryption, which ensure the security of the users' personal information. Users can search for campgrounds by location or name, view detailed campground information, including images and reviews, and add their own reviews and ratings.</p>
+              <p>The application includes many features such as user authentication, authorization, and password encryption, which ensure the security of the users&apos; personal information. Users can search for campgrounds by location or name, view detailed campground information, including images and reviews, and add their own reviews and ratings.</p>
               <br></br>
               <p>Additionally, the application includes a feature-rich campground creation form, which allows users to create their own campgrounds, complete with descriptions, images, and location details. The campground listings are displayed in an interactive map and can be filtered by various attributes such as price and rating.</p>
               <br></br>
