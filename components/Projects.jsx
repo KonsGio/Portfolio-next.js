@@ -30,12 +30,6 @@ const Projects = () => {
             />
             <ProjectItem
                 title='A Gpt-ai chat assistant'
-                backgroundImg={yelpcampimg}
-                projectUrl='../projects/yelpcamp'
-                tech=' EJS | MongoDB | Node.js'
-            />
-            <ProjectItem
-                title='A Gpt-ai chat assistant'
                 backgroundImg={imagegenimg}
                 projectUrl='../projects/imageai'
                 tech='React Js | OpenAi | Vite'
