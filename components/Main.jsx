@@ -27,9 +27,6 @@ const Main = () => {
                         <a href='https://github.com/KonsGio' rel="noreferrer" target='_blank' className='text-[#6f3d01]'><FaGithub /></a>
                     </div>
                     <div className='rounded-full shadow-[#6f3d01a5] shadow-lg p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#ad7e44]'>
-                        <a href='mailto:konstantinos.giovanitsas@yahoo.com' className='text-[#6f3d01]'><AiOutlineMail /></a>
-                    </div>
-                    <div className='rounded-full shadow-[#6f3d01a5] shadow-lg p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#ad7e44]'>
                         <a href='https://mega.nz/file/EA1AHBCS#vC9NaguLb-eyJrEI1znGi8PBFFTEa20h_Q5BLmM4KuM' rel="noreferrer" target='_blank' className='text-[#6f3d01]'><FaFileDownload /></a>
                    </div>
                 </div>
